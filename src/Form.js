@@ -34,7 +34,7 @@ export default function Form() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input type="text" onChange={updateCity} />
+        <input type="text" class="text " onChange={updateCity} />
         <input type="submit" value="search" />
       </form>
       <h6>{info}</h6>
